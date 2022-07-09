@@ -36,6 +36,12 @@ header{
     border: none;
     text-transform:capitalize;
 }
+.enroll-btn:hover{
+    background-color: #03787c;
+    color: #fff;
+    transition: all .4s;
+
+}
 /* hero section css */
 .container{
     display: flex;
@@ -84,6 +90,7 @@ p.hero-text {
     padding: 20px 10px;
     border-radius: 20px;
     box-shadow: #333347;
+    cursor: pointer;
   }
   .card-thumb {
     width: 100%;
@@ -153,6 +160,12 @@ button.view-btn {
     margin: 0 auto;
     text-transform: capitalize;
     display: block;
+}
+button.view-btn:hover{
+   color: #fff;
+   background: #143ebd; 
+   border: 2px solid #143ebd;
+   transition: all .4s;
 }
 /* portfolio css  */
 .portfolio {
