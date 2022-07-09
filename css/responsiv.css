@@ -43,10 +43,10 @@
         width: 70%;
     }
     .carosel::after {
-        left: 50px;
+        left: 20px;
     }
     .carosel::before {
-        right:50px;
+        right:20px;
     }
     input.email {
         padding: 7px;
@@ -54,7 +54,22 @@
     }
 }
 @media screen and (max-width:568px) {
-    .athor-deatails h2 {
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  section {
+    padding: 10px;
+    margin: 30px 0;
+  }
+  img.portfolio-item {
+    width: 50%;
+  }
+  .news-wrap {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .athor-deatails h2 {
         font-size: 17px;
       }
       .athor-deatails p {
@@ -80,4 +95,8 @@
       .icon{
         font-size: 20px;
       }
+      .footer-wrap {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
