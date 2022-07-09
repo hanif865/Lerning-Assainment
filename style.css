@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333347;
+}
+p{
+    color: #A2A2AD;
+}
+body{
+    background: #FAFAFF;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+section {
+    padding: 40px;
+    margin: 30px 0;
+}
+header,footer{
+    padding:10px 40px;
+}
+/* heder css */
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.enroll-btn{
+    padding:10px 15px;
+    background-color: #0B07C5;
+    border-radius: 5px;
+    color: #FAFAFF;
+    border: none;
+    text-transform:capitalize;
+}
+/* hero section css */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1.hero-title {
+    font-size: 45px;
+}
+p.hero-text {
+    font-size: 11px;
+    padding: 15px 0;
+}
+/* counter section  */
+.counter{
+    background: #CFCEFD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.counter h2 {
+    padding: 25px;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+}
+/* best saller section  */
+.best-seller {
+    padding: 70px 40px;
+  }
+.section-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+/* card css  */
+.card-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.card {
+    background: #F5F5FF;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: #333347;
+  }
+  .card-thumb {
+    width: 100%;
+    height: 190px;
+    border-radius: 10px 10px 0 0;
+    background-image: url(images/thumb1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+  }
+  .fa-solid, .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: blue;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+  h2.card-title {
+    font-size: 14px;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+img.rat-icon {
+    width: 20%;
+    margin-right: 15px;
+}
+h4.rat-text {
+    font-size: 12px;
+}
+.card-tax {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.card-tax h2 {
+    font-size: 12px;
+}
+
+.duration::before {
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 500;
+    margin-right: 5px;
+}
+.card-ratting {
+    display: flex;
+    align-items: center;
+  }
+  .why-card{
+    display: flex;
+  }
+  .card-contant {
+    padding: 0 5px;
+}
+.card-contant p {
+    font-size: 11px;
+}
+button.view-btn {
+    padding: 10px 15px;
+    color: #143ebd;
+    border: 2px solid #143ebd;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    display: block;
+}
+/* portfolio css  */
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* tastimonial css  */
+.tastimonial{
+    position: relative;
+}
+.carosel::after {
+    content: "\f137";
+    font: var(--fa-font-solid);
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #B6B5FC;
+}
+.carosel::before {
+    content: "\f138";
+    font: var(--fa-font-solid);
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: #0B07C5;
+}
+.tastimonial-wap {
+    width: 50%;
+    background: #E2E1FE;
+    padding: 50px;
+    margin: 0 auto;
+    box-shadow: 10px -10px 2px #EBEBFF;
+}
+img.author-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.author-imag-box {
+    margin: 10px;
+}
+.author-box {
+    display: flex;
+    align-items:center;
+}
+.tastimonial-contant {
+    position: relative;
+}
+blockquote {
+    padding: 35px 0;
+    font-size: 14px;
+}
+blockquote::before,blockquote::after{
+    content: "\201C";
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+blockquote::before {
+    top: -30px;
+    left: -30px;
+}
+blockquote::after {
+    content: "\201D";
+    right: -25px;
+    bottom: -25px;
+}
+p.designation {
+    color: #302f2f;
+}
+/* news letter css  */
+section.newslatter {
+    background: #030231;
+    color: #fff;
+    width: 100%;
+    padding: 100px 0;
+}
+h1.join-text {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 70px;
+}
+p.dicribe {
+    text-align: center;
+    font-size: 14px;
+    /* line-height: 39px; */
+}
+span.plch {
+    display: block;
+    margin-left: 5px;
+}
+input.email {
+    padding: 10px;
+    border-radius: 10px;
+    width: 75%;
+}
+.news-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+/* faq css  */
+.faq-tab label {
+    color: rgb(17, 13, 13);
+    background: #F5F5FF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    margin: 5px 0;
+    padding: 15px 40px 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.faq-tab label::before{
+    content: '\f078';
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition:transform .30s ;
+}
+.toggle:checked ~ label::before{
+    transform: rotate(0deg);
+}
+
+input.toggle {
+    display: none;
+}
+.faq-ans {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+.toggle:checked ~ .faq-ans {
+    width: 80%;
+    max-height: fit-content;
+    padding: 20px 0 20px 15px;
+    line-height: 27px;
+    font-size: 14px;
+}
+/* fotter css  */
+.footer-wrap{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+}
+ul li {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.fotter-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h2.nav-title {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.about p {
+    font-size: 13px;
+    line-height: 24px;
+}
+.icon {
+    color: #0b07c5;
+    font-size: 30px;
+    margin: 10px 20px 0 0;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    grid-column: 1/-1;
+}
+.copyright h4 {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 40px 0;
+}
+.copyright h4::before {
+    content: '\f1f9';
+    font: var(--fa-font-solid);
+    font-weight: 100;
+}

@@ -1,0 +1,83 @@
+@media screen and (max-width:900px){
+
+      h1.hero-title {
+        font-size: 26px;
+      }
+      .card-wrap {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+      }
+
+}
+@media screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+      }
+    .right img {
+        width: 100%;
+    }
+    p.hero-text {
+        font-size: 14px;
+    }
+    .counter h2 {
+        font-size: 16px;
+        padding: 0;
+      }
+
+
+    .card-wrap {
+        grid-template-columns:1fr;
+    }
+    img.rat-icon {
+        width: 30%;
+        margin-right: 15px;
+      }
+    .best-seller {
+        padding:0;
+    }
+    .card-thumb {
+        height: 340px;
+    }
+    .tastimonial-wap {
+        width: 70%;
+    }
+    .carosel::after {
+        left: 50px;
+    }
+    .carosel::before {
+        right:50px;
+    }
+    input.email {
+        padding: 7px;
+        width: 65%;
+    }
+}
+@media screen and (max-width:568px) {
+    .athor-deatails h2 {
+        font-size: 17px;
+      }
+      .athor-deatails p {
+        color: #302f2f;
+        font-size: 11px;
+      }
+      .card-thumb {
+        height: 280px;
+      }
+      input.email {
+        padding: 7px;
+        width: 50%;
+      }
+      .fotter-nav h2 {
+        font-size: 17px;
+      }
+      .fotter-nav li{
+        font-size: 12px;
+      }
+      header, footer {
+        padding: 10px;
+      }
+      .icon{
+        font-size: 20px;
+      }
+}
