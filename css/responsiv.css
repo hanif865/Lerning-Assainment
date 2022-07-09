@@ -21,7 +21,7 @@
         font-size: 14px;
     }
     .counter h2 {
-        font-size: 16px;
+        font-size: 12px;
         padding: 0;
       }
 
@@ -99,5 +99,8 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);
         justify-content: center;
+    }
+    .last{
+      grid-column: 1/-1;
     }
 }
